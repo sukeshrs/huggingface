@@ -14,3 +14,12 @@ python -m venv {path to the venv folder}
 ```Install Dependencies
 pip install -r requirements.txt
 ```
+
+### Execute the scripts
+
+python {script_name}.py
+
+example
+```
+python pipeline_sentiment.py
+```
