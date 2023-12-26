@@ -1,7 +1,7 @@
 ## Sample usage of list of pipelines from huggingface
 
 
-###Optional step to create a virtual environment
+### Optional step to create a virtual environment
 ```Create Virtual Envrionment
 python -m venv {path to the venv folder}
 ```
@@ -9,7 +9,7 @@ python -m venv {path to the venv folder}
 {path to the venv folder}/Scripts/activate.bat
 ```
 
-###Install Dependencies
+### Install Dependencies
 
 ```Install Dependencies
 pip install -r requirements.txt
