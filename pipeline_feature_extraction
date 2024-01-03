@@ -1,0 +1,9 @@
+from transformers import pipeline
+from timeit import default_timer as timer
+
+start = timer()
+classifier = pipeline("feature-extraction")
+output = classifier("Miami is beatiful")
+print(output)
+end = timer()
+print(end - start)
