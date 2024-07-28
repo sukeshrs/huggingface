@@ -13,10 +13,10 @@ sequences = [
 batch = tokenizer(sequences, padding=True,
                   truncation=True, return_tensors="pt")
 
-# This is new
-batch["labels"] = torch.tensor([1, 1])
+# # This is new
+#batch["labels"] = torch.tensor([1, 1])
 
-optimizer = AdamW(model.parameters())
-loss = model(**batch).loss
-loss.backward()
-optimizer.step()
+# optimizer = AdamW(model.parameters())
+# loss = model(**batch).loss
+# loss.backward()
+# optimizer.step()

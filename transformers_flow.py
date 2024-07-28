@@ -15,7 +15,7 @@ raw_inputs = [
 ]
 inputs = tokenizer(raw_inputs, padding=True,
                    truncation=True, return_tensors="pt")
-print(inputs)
+print('tokenized inputs',inputs)
 
 # For each model input, we’ll retrieve a high-dimensional vector representing the contextual 
 # understanding of that input by the Transformer model.
